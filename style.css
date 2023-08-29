@@ -1,3 +1,62 @@
-[class*="Voice_name__"] {
-    background-color: rgba(30, 33, 36, .5) !important;
+body {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  bottom: 10px;
+  /*右下に配置する場合、↓のコメントアウトを外す*/
+  /*right: 0px;*/
+}
+
+div[class*="Voice_voiceContainer_"] {
+  align-content: start;
+}
+
+ul[class*="Voice_voiceStates"] {
+  text-align: left;
+  top: 0;
+  left: 0;
+}
+
+li[class*="Voice_voiceState"] {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 132px;
+  height: fit-content;
+  margin: 0px auto 10px;
+}
+
+img[class*="Voice_avatar_"] {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  margin: 0 16px;
+  padding: 0;
+  filter: brightness(60%);
+  opacity: 0.75;
+}
+
+img[class*="Voice_avatarSpeaking"]  {
+  filter: brightness(100%);
+  opacity: 1;
+}
+
+div[class*='Voice_user'] {
+  display: inline-block;
+  width: fit-content;
+  padding: 0px auto;
+  margin-top: -18px;
+  border-radius: 4px;
+}
+
+span[class*='Voice_name'] {
+  width: fit-content;
+  text-align: center;
+  word-wrap: break-word;
+  -webkit-box-decoration-break: clone;
+  line-height: 1.7 !important;
+  padding: 4px 6px;
+  overflow: hidden;
 }
