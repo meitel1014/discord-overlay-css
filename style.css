@@ -1,12 +1,11 @@
 body {
-  background-color: rgba(0, 0, 0, 0);
+  /*右下に配置する場合、↓のコメントアウトを外す*/
+  /*right: 0px;*/
+  bottom: 10px;
+  position: absolute;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: absolute;
-  bottom: 10px;
-  /*右下に配置する場合、↓のコメントアウトを外す*/
-  /*right: 0px;*/
 }
 
 div[class*="Voice_voiceContainer_"] {
