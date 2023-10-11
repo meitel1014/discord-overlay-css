@@ -50,8 +50,6 @@ right: 0px;
 ```
 としてください。
 
-https://github.com/meitel1014/discord-overlay-css/blob/master/style.css#L3
-
 この状態だと参加者のアイコンと名前が右下詰めで表示されます。
 
 この状態でOBSのプレビュー画面から参加者一覧のブラウザソースを右側に持っていくと配信画面の右下に表示されるようになります。
