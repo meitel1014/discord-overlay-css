@@ -15,8 +15,8 @@
 # サンプル
 
 <p>
-  <img src="screenshot_scrim_sample.png" width="800px">
-  <img src="screenshot_private_sample.png" width="800px">
+  <img src="image/screenshot_scrim_sample.png" width="800px">
+  <img src="image/screenshot_private_sample.png" width="800px">
 </p>
 
 # 導入方法
@@ -38,7 +38,7 @@ StreamKitの設定
 
 （右上の「Copy raw file」ボタンが便利）
 
-![Copy raw file](copy_raw_file.png)
+![Copy raw file](image/copy_raw_file.png)
 
 以上の設定で、StreamKitで指定した通話チャンネルの参加者が配信に映るようになります。
 
@@ -66,7 +66,7 @@ https://streamkit.discord.com/overlay/voice/[サーバーID]/[チャンネルID]
 
 このIDを取得してURLを更新する方法はこちら。
 
-1. Discordの設定から、開発者モードをオンにする。 ![開発者モード](discord_developer_mode.png)
+1. Discordの設定から、開発者モードをオンにする。 ![開発者モード](image/discord_developer_mode.png)
 2. OBSのStreamKitを設定したブラウザソースのプロパティを開く。
 3. サーバー名の部分を右クリックして、「サーバーIDをコピー」をクリックする。
 4. URLのサーバーID部分をダブルクリックするといい感じに選択できるので、コピーしてきたサーバーIDを貼り付ける。
@@ -74,8 +74,8 @@ https://streamkit.discord.com/overlay/voice/[サーバーID]/[チャンネルID]
 6. URLのチャンネルID部分をダブルクリックするといい感じに選択できるので、コピーしてきたチャンネルIDを貼り付ける。
 
 <p style="text-align: center;">
-  <img src="server_id.png" width=45%>
-  <img src="channel_id.png" width=40%>
+  <img src="image/server_id.png" width=45%>
+  <img src="image/channel_id.png" width=40%>
 </p>
 
 
@@ -88,4 +88,4 @@ https://streamkit.discord.com/overlay/voice/[サーバーID]/[チャンネルID]
 
 例:
 
-<img src="obs_folder.png" width=45%>
+<img src="image/obs_folder.png" width=45%>
