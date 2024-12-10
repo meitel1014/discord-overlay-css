@@ -30,7 +30,7 @@ https://vip-jikkyo.net/discord-streamkit
 StreamKitの設定
 - Text Size: 20px を推奨
 ブラウザソースのサイズ (1080pでの配信の場合)
-- 幅: 960
+- 幅: 1920
 - 高さ: 1080
 ```
 
